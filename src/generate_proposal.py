@@ -10,7 +10,12 @@ clave de pago configurada.
 import os
 import re
 
+import requests
+
 FORMATS = ["LinkedIn post", "Carrusel", "Vídeo animado corto"]
+
+
+SPANISH_SOURCES = ("incibe",)
 
 
 RELEVANCE_KEYWORDS = [
@@ -42,7 +47,9 @@ una pyme
 - La fuente en la que se basa, con enlace
 
 Devuelve el resultado en Markdown, como una lista numerada, lista para pegar \
-directamente en un issue de GitHub. No añadas explicaciones fuera de la lista.
+directamente en un issue de GitHub. No añadas explicaciones fuera de la lista. \
+Escribe absolutamente todo (títulos, formatos, descripciones) en español, \
+aunque la noticia original esté en inglés.
 
 Noticias disponibles:
 {articles}
@@ -70,6 +77,34 @@ def build_proposal(articles, max_articles: int = 40) -> str:
 def _is_relevant(article) -> bool:
     text = f"{article.get('title', '')} {article.get('summary', '')}".lower()
     return any(keyword in text for keyword in RELEVANCE_KEYWORDS)
+
+
+def _translate_to_spanish(text: str, source: str = "") -> str:
+    """Traduce `text` al español con la API pública y gratuita de MyMemory
+    (sin clave). Si el texto está vacío, ya viene en español (según la
+    fuente) o la traducción falla por cualquier motivo, devuelve el texto
+    original tal cual — nunca rompe el resto del pipeline por esto.
+    """
+    text = (text or "").strip()
+    if not text or any(s in source.lower() for s in SPANISH_SOURCES):
+        return text
+
+    try:
+        resp = requests.get(
+            "https://api.mymemory.translated.net/get",
+            params={"q": text, "langpair": "en|es"},
+            timeout=8,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        translated = data.get("responseData", {}).get("translatedText")
+      
+        if translated and "MYMEMORY WARNING" not in translated.upper():
+            return translated
+    except Exception as exc:
+        print(f"[warn] no se pudo traducir un resumen, se deja en el idioma original: {exc}")
+
+    return text
 
 
 def _build_with_claude(articles, api_key: str) -> str:
@@ -102,10 +137,11 @@ def _build_simple(articles, count: int = 8) -> str:
     lines = ["## Propuesta de contenido semanal (modo simple, sin IA)\n"]
     for i, article in enumerate(candidates[:count], start=1):
         formato = FORMATS[i % len(FORMATS)]
+        resumen_es = _translate_to_spanish(article["summary"], article["source"])
         lines.append(
             f"{i}. **{article['title']}** — formato sugerido: {formato}\n"
             f"   - Fuente: {article['source']} ({article['link']})\n"
-            f"   - Resumen: {article['summary']}\n"
+            f"   - Resumen: {resumen_es}\n"
         )
     filtro_nota = (
         f" Se descartaron {discarded} resultados sin relación aparente con "
