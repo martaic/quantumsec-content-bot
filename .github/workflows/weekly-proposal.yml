@@ -1,0 +1,40 @@
+name: Propuesta semanal de contenido
+
+on:
+  schedule:
+    
+    - cron: "0 18 * * 0"
+  workflow_dispatch: {} 
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  generar-propuesta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar propuesta
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python src/main.py
+
+      - name: Crear issue con la propuesta
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          FECHA=$(date +'%Y-%m-%d')
+          gh issue create \
+            --title "Propuesta de contenido — semana del $FECHA" \
+            --body-file output/proposal.md
