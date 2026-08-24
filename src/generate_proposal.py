@@ -8,8 +8,22 @@ utilizable, para que el proyecto nunca dependa por completo de tener una
 clave de pago configurada.
 """
 import os
+import re
 
 FORMATS = ["LinkedIn post", "Carrusel", "Vídeo animado corto"]
+
+
+RELEVANCE_KEYWORDS = [
+    "ransomware", "phishing", "malware", "vulnerab", "breach", "hack",
+    "exploit", "attack", "ataque", "spyware", "rootkit", "backdoor",
+    "botnet", "ddos", "zero-day", "zero day", "cve-", "leak", "leaked",
+    "fuga de datos", "cyberattack", "cyber attack", "trojan", "troyano",
+    "spoofing", "suplantaci", "ciberseguridad", "cibersegur", "cyber",
+    "security", "seguridad", "brecha", "estafa", "fraude", "phish",
+    "privilege escalation", "remote code execution", "unauthorized access",
+    "root access", "data breach", "secuestro de datos", "extorsion",
+    "extorsión", "amenaza", "threat actor", "apt ", "credential",
+]
 
 PROMPT_TEMPLATE = """Eres el/la responsable de contenido de QuantumSec, una empresa \
 de ciberseguridad centrada en pymes españolas.
@@ -53,6 +67,11 @@ def build_proposal(articles, max_articles: int = 40) -> str:
     return _build_simple(articles)
 
 
+def _is_relevant(article) -> bool:
+    text = f"{article.get('title', '')} {article.get('summary', '')}".lower()
+    return any(keyword in text for keyword in RELEVANCE_KEYWORDS)
+
+
 def _build_with_claude(articles, api_key: str) -> str:
     import anthropic
 
@@ -71,21 +90,33 @@ def _build_with_claude(articles, api_key: str) -> str:
 
 
 def _build_simple(articles, count: int = 8) -> str:
-    """Fallback sin IA: ordena las noticias más recientes en una lista simple,
-    rotando el formato sugerido.
+    """Fallback sin IA: filtra por relevancia (palabras clave de
+    ciberseguridad) y ordena las noticias más recientes en una lista simple,
+    rotando el formato sugerido. Si el filtro deja la lista vacía, usa las
+    noticias sin filtrar para no devolver nada en blanco.
     """
+    relevant = [a for a in articles if _is_relevant(a)]
+    candidates = relevant or articles
+    discarded = len(articles) - len(candidates)
+
     lines = ["## Propuesta de contenido semanal (modo simple, sin IA)\n"]
-    for i, article in enumerate(articles[:count], start=1):
+    for i, article in enumerate(candidates[:count], start=1):
         formato = FORMATS[i % len(FORMATS)]
         lines.append(
             f"{i}. **{article['title']}** — formato sugerido: {formato}\n"
             f"   - Fuente: {article['source']} ({article['link']})\n"
             f"   - Resumen: {article['summary']}\n"
         )
+    filtro_nota = (
+        f" Se descartaron {discarded} resultados sin relación aparente con "
+        "ciberseguridad (filtro por palabras clave, no siempre perfecto)."
+        if discarded
+        else ""
+    )
     lines.append(
         "\n_Nota: esta propuesta se generó sin la API de Claude (no hay "
         "`ANTHROPIC_API_KEY` configurada como secreto del repo). Añádela para "
         "obtener propuestas redactadas y priorizadas automáticamente en vez de "
-        "esta lista simple._"
+        f"esta lista simple.{filtro_nota}_"
     )
     return "\n".join(lines)
