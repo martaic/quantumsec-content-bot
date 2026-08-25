@@ -33,7 +33,7 @@ HN_QUERIES = ["ransomware", "phishing", "data breach", "vulnerability", "malware
 
 REDDIT_SUBREDDITS = ["cybersecurity", "netsec", "InfoSecNews"]
 REDDIT_HEADERS = {
-    "User-Agent": "quantumsec-content-bot/1.0 (investigacion semanal de contenido)"
+    "User-Agent": "quantumsec-content-bot/1.0 (investigacion semanal de contenido, uso no comercial)"
 }
 
 
