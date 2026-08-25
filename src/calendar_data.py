@@ -18,7 +18,7 @@ CALENDAR_PATH = Path(__file__).resolve().parent.parent / "docs" / "data" / "cale
 WEEKDAY_NAMES = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 
 
-CONTENT_FORMATS = ["Vídeo animado corto", "Carrusel", "LinkedIn post"]
+CONTENT_FORMATS = ["Reel", "Carrusel", "LinkedIn post"]
 RECAP_FORMAT = "Recopilatorio semanal"
 
 
