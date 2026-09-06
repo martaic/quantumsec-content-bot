@@ -52,5 +52,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-09-05",
     "weekday": "Sábado"
+  },
+  {
+    "title": "The first AI-run ransomware attack copied its Bitcoin address out of a tutorial",
+    "summary": "",
+    "source_name": "Hacker News (4 puntos, 0 comentarios)",
+    "source_url": "https://medium.com/@thenewgencoder/the-first-fully-ai-run-ransomware-attack-copied-its-bitcoin-address-out-of-a-tutorial-a630ee3224dc",
+    "format": "Reel",
+    "date": "2026-09-07",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "Security vulnerabilities of AI data centers flagged at intelligence hearing",
+    "summary": "",
+    "source_name": "Hacker News (4 puntos, 0 comentarios)",
+    "source_url": "https://insidecybersecurity.com/daily-news/security-vulnerabilities-ai-data-centers-flagged-house-intelligence-hearing",
+    "format": "Carrusel",
+    "date": "2026-09-08",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Ask HN: How safe are our password managers in face of LLM cyber attacks?",
+    "summary": "",
+    "source_name": "Hacker News (2 puntos, 0 comentarios)",
+    "source_url": "https://news.ycombinator.com/item?id=49588597",
+    "format": "LinkedIn post",
+    "date": "2026-09-09",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "Attackers conceal phishing lures using invisible Unicode characters",
+    "summary": "Los actores de amenazas han adoptado la técnica de contrabando ASCII en campañas de phishing, utilizando caracteres Unicode invisibles para evadir los filtros de seguridad del correo electrónico. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+    "format": "Reel",
+    "date": "2026-09-10",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+    "summary": "Los atacantes están explotando los routers MikroTik con su servicio de acceso remoto Secure Shell (SSH), al que se puede acceder desde Internet, para obtener un control administrativo total sin autenticación, según la advertencia de ataque de CERT Polska, publicada el 5 de septiembre.",
+    "source_name": "The Hacker News",
+    "source_url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+    "format": "Carrusel",
+    "date": "2026-09-11",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: The first AI-run ransomware attack copied its Bitcoin address out of a tutorial; Security vulnerabilities of AI data centers flagged at intelligence hearing; Ask HN: How safe are our password managers in face of LLM cyber attacks?; Attackers conceal phishing lures using invisible Unicode characters; Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication.",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-09-12",
+    "weekday": "Sábado"
   }
 ]
