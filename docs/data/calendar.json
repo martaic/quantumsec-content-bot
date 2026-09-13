@@ -106,5 +106,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-09-12",
     "weekday": "Sábado"
+  },
+  {
+    "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "summary": "Los actores de amenazas vinculados a un grupo de espionaje alineado con China están explotando una vulnerabilidad crítica (CVE-2026-51990) en el método de entrada Sogou de Tencent para Windows para implementar la puerta trasera GrayRabbit. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "format": "Reel",
+    "date": "2026-09-14",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "Looking for vulnerabilities is the last thing I do",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 0 comentarios)",
+    "source_url": "https://neilmadden.blog/2026/02/20/looking-for-vulnerabilities-is-the-last-thing-i-do/",
+    "format": "Carrusel",
+    "date": "2026-09-15",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "summary": "Microsoft ha revelado detalles de dos campañas en las que los actores de amenazas están abusando de la infraestructura de entrega de correo electrónico de terceros para destruir mensajes de estafa de fraude financiero y utilizando ingeniería social con clave de acceso para violar entornos de nube. La primera campaña, según el gigante tecnológico, i",
+    "source_name": "The Hacker News",
+    "source_url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+    "format": "LinkedIn post",
+    "date": "2026-09-16",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "Revolut confirms customer data breach through fake government requests",
+    "summary": "",
+    "source_name": "Hacker News (158 puntos, 112 comentarios)",
+    "source_url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+    "format": "Reel",
+    "date": "2026-09-17",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "A rant about phishing: It's not the user's fault (and not DNS either)",
+    "summary": "",
+    "source_name": "Hacker News (3 puntos, 0 comentarios)",
+    "source_url": "https://maurycyz.com/misc/domains/",
+    "format": "Carrusel",
+    "date": "2026-09-18",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: Hackers exploit Tencent app flaw to deploy GrayRabbit malware; Looking for vulnerabilities is the last thing I do; Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data; Revolut confirms customer data breach through fake government requests; A rant about phishing: It's not the user's fault (and not DNS either).",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-09-19",
+    "weekday": "Sábado"
   }
 ]
