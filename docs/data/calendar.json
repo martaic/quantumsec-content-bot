@@ -160,5 +160,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-09-19",
     "weekday": "Sábado"
+  },
+  {
+    "title": "[Virtual Event] Cybersecurity Outlook 2027",
+    "summary": "",
+    "source_name": "Dark Reading",
+    "source_url": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
+    "format": "Reel",
+    "date": "2026-09-21",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "Malicious npm packages evade install-script defenses at runtime",
+    "summary": "Una campaña de malware npm en curso que involucra el paquete 'indexed-btree' muestra cómo los actores de amenazas eluden las defensas de la cadena de suministro al ocultar el código malicioso en el comportamiento normal en tiempo de ejecución de un paquete en lugar de en los scripts de instalación. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+    "format": "Carrusel",
+    "date": "2026-09-22",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Detecting and mitigating a multi-stage AiTM phishing and BEC campaign (2023)",
+    "summary": "",
+    "source_name": "Hacker News (5 puntos, 0 comentarios)",
+    "source_url": "https://www.microsoft.com/en-us/security/blog/2023/06/08/detecting-and-mitigating-a-multi-stage-aitm-phishing-and-bec-campaign/",
+    "format": "LinkedIn post",
+    "date": "2026-09-23",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "summary": "Tres investigadores de la empresa de seguridad Hacktron utilizaron Claude Opus 5 de Anthropic para encadenar dos fallas y hacerse cargo de las cuentas de ChatGPT y Codex de varios empleados de OpenAI, y luego llegar a un repositorio de código interno de OpenAI. La cadena comenzó con un error en el software que se ejecuta",
+    "source_name": "The Hacker News",
+    "source_url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+    "format": "Reel",
+    "date": "2026-09-24",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "Show HN: BreachScanner – Check if your email has been in data breaches",
+    "summary": "",
+    "source_name": "Hacker News (3 puntos, 3 comentarios)",
+    "source_url": "https://github.com/Aaronmike481/BreachScanner",
+    "format": "Carrusel",
+    "date": "2026-09-25",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: [Virtual Event] Cybersecurity Outlook 2027; Malicious npm packages evade install-script defenses at runtime; Detecting and mitigating a multi-stage AiTM phishing and BEC campaign (2023); Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws; Show HN: BreachScanner – Check if your email has been in data breaches.",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-09-26",
+    "weekday": "Sábado"
   }
 ]
