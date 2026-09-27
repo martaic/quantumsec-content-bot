@@ -214,5 +214,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-09-26",
     "weekday": "Sábado"
+  },
+  {
+    "title": "[Virtual Event] Cybersecurity Outlook 2027",
+    "summary": "",
+    "source_name": "Dark Reading",
+    "source_url": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
+    "format": "Reel",
+    "date": "2026-09-28",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "Stake data breach exposes customer details after hack at partner DriveWealth",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 0 comentarios)",
+    "source_url": "https://www.news.com.au/technology/online/hacking/stake-data-breach-exposes-customer-details-after-hack-at-partner-drivewealth/news-story/37cef5ab8bdc886c54e26c848782695f",
+    "format": "Carrusel",
+    "date": "2026-09-29",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+    "summary": "Citrix ha confirmado que dos vulnerabilidades críticas de ejecución remota de código de NetScaler, rastreadas como CVE-2026-88771 y CVE-2026-88772, están siendo explotadas en ataques y que ha lanzado actualizaciones de seguridad para corregir las fallas. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+    "format": "LinkedIn post",
+    "date": "2026-09-30",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+    "summary": "Cloudflare ha corregido una vulnerabilidad en Contenedores y Sandboxes que permitía a los clientes con una cuenta Workers Paid recuperar datos residuales de los contenedores de otros clientes en el mismo host físico. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+    "format": "Reel",
+    "date": "2026-10-01",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "Phish.net History in Screenshots",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 0 comentarios)",
+    "source_url": "https://phish.net/page/phishnet-screenshots",
+    "format": "Carrusel",
+    "date": "2026-10-02",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: [Virtual Event] Cybersecurity Outlook 2027; Stake data breach exposes customer details after hack at partner DriveWealth; Citrix confirms two NetScaler RCE zero-days exploited in attacks; Cloudflare fixes Containers cross-tenant flaw exposing customer data; Phish.net History in Screenshots.",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-10-03",
+    "weekday": "Sábado"
   }
 ]
