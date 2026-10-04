@@ -268,5 +268,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-10-03",
     "weekday": "Sábado"
+  },
+  {
+    "title": "Xray-core concealed a certificate verification bypass vulnerability",
+    "summary": "",
+    "source_name": "Hacker News (5 puntos, 0 comentarios)",
+    "source_url": "https://github.com/net4people/bbs/issues/672",
+    "format": "Reel",
+    "date": "2026-10-05",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "O(N) the Money: Scaling Vulnerability Research with LLMs (2025)",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 0 comentarios)",
+    "source_url": "https://noperator.dev/posts/on-the-money/",
+    "format": "Carrusel",
+    "date": "2026-10-06",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Tracking vulnerabilities that credit the Anthropic research team",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 0 comentarios)",
+    "source_url": "https://github.com/patrickmgarrity/Anthropic-Credited-CVEs",
+    "format": "LinkedIn post",
+    "date": "2026-10-07",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "Teenager suspected of leading KillSec ransomware group",
+    "summary": "",
+    "source_name": "Hacker News (12 puntos, 2 comentarios)",
+    "source_url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+    "format": "Reel",
+    "date": "2026-10-08",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+    "summary": "Un nuevo grupo de ciberespionaje de China conocido como TA419 se ha atribuido a múltiples campañas de phishing de credenciales dirigidas a expertos en inteligencia artificial (IA) que trabajan para think tanks, universidades y organizaciones del sector legal de EE. UU. Las campañas se han hecho pasar por prominentes",
+    "source_name": "The Hacker News",
+    "source_url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+    "format": "Carrusel",
+    "date": "2026-10-09",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: Xray-core concealed a certificate verification bypass vulnerability; O(N) the Money: Scaling Vulnerability Research with LLMs (2025); Tracking vulnerabilities that credit the Anthropic research team; Teenager suspected of leading KillSec ransomware group; China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing.",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-10-10",
+    "weekday": "Sábado"
   }
 ]
