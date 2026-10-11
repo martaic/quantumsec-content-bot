@@ -322,5 +322,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-10-10",
     "weekday": "Sábado"
+  },
+  {
+    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+    "summary": "Daiichi Kosho, un importante fabricante japonés de sistemas de entretenimiento, reveló que una infección de malware en su contratista, Nippon Columbia, expuso más de 8,7 millones de registros de clientes y empleados. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+    "format": "Reel",
+    "date": "2026-10-12",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "'You have a meeting': the calendar phishing scam growing exponentially",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 1 comentarios)",
+    "source_url": "https://www.theguardian.com/money/2026/oct/11/calendar-phishing-scam-meeting-renewal-google-microsoft-paypal",
+    "format": "Carrusel",
+    "date": "2026-10-13",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Twenty-two pending curl vulnerabilities",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 0 comentarios)",
+    "source_url": "https://daniel.haxx.se/blog/2026/10/07/twenty-two-pending-curl-vulnerabilities/",
+    "format": "LinkedIn post",
+    "date": "2026-10-14",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "summary": "Los investigadores de ciberseguridad han revelado detalles de una variante nunca antes vista del kit de explotación de DarkSword iOS llamada P7 DarkSword. \"En comparación con las variantes que solemos observar, P7 reduce su huella en el dispositivo, añade el robo de llaveros y billeteras criptográficas en el dispositivo y añade dos",
+    "source_name": "The Hacker News",
+    "source_url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+    "format": "Reel",
+    "date": "2026-10-15",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "Cyber Resilience Guide: Zero Trust, AI Security and Ransomware Recovery",
+    "summary": "",
+    "source_name": "Hacker News (3 puntos, 0 comentarios)",
+    "source_url": "https://phpscientist.com/blog/cyber-resilience-implementation-guide-ai-ransomware-zero-trust/",
+    "format": "Carrusel",
+    "date": "2026-10-16",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: Nippon Columbia malware incident exposes 8.6 million karaoke fan records; 'You have a meeting': the calendar phishing scam growing exponentially; Twenty-two pending curl vulnerabilities; P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands; Cyber Resilience Guide: Zero Trust, AI Security and Ransomware Recovery.",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-10-17",
+    "weekday": "Sábado"
   }
 ]
