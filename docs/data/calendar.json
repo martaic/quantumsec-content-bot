@@ -376,5 +376,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-10-17",
     "weekday": "Sábado"
+  },
+  {
+    "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+    "summary": "Los atacantes se dirigen a una vulnerabilidad de inyección de comandos del sistema operativo en SiteGuard Server Edition que les permite ejecutar comandos como root o SISTEMA en los servidores afectados. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+    "format": "Reel",
+    "date": "2026-10-19",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "Frontier class vulnerabilities: it gets worse before it (maybe) gets better",
+    "summary": "",
+    "source_name": "Hacker News (2 puntos, 0 comentarios)",
+    "source_url": "https://shubs.io/frontier-class-vulnerabilities-it-gets-worse-before-it-maybe-gets-better/",
+    "format": "Carrusel",
+    "date": "2026-10-20",
+    "weekday": "Martes"
+  },
+  {
+    "title": "US Air Force pilots used malware-laden USB drives to plan Afghanistan missions",
+    "summary": "",
+    "source_name": "Hacker News (8 puntos, 0 comentarios)",
+    "source_url": "https://www.theregister.com/security/2026/10/15/us-air-force-pilots-used-malware-laden-usb-drives-to-plan-afghanistan-missions/5303156",
+    "format": "LinkedIn post",
+    "date": "2026-10-21",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "summary": "ConnectWise dijo el sábado que ha desactivado siete identidades de la aplicación ConnectWise mientras continúa su investigación sobre un incidente en el que actores de amenazas desconocidos obtuvieron acceso no autorizado a las identidades de la aplicación y comprometieron a los inquilinos de Microsoft 365.",
+    "source_name": "The Hacker News",
+    "source_url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+    "format": "Reel",
+    "date": "2026-10-22",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "Phishing emails are baiting your AI assistant",
+    "summary": "",
+    "source_name": "Hacker News (3 puntos, 0 comentarios)",
+    "source_url": "https://www.malwarebytes.com/blog/ai/2026/10/phishing-emails-are-baiting-your-ai-assistant",
+    "format": "Carrusel",
+    "date": "2026-10-23",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: Hackers exploit SiteGuard WAF flaw to run commands as admins; Frontier class vulnerabilities: it gets worse before it (maybe) gets better; US Air Force pilots used malware-laden USB drives to plan Afghanistan missions; ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants; Phishing emails are baiting your AI assistant.",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-10-24",
+    "weekday": "Sábado"
   }
 ]
