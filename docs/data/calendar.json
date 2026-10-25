@@ -430,5 +430,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-10-24",
     "weekday": "Sábado"
+  },
+  {
+    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+    "summary": "Un solo dispositivo hackeado en una red Tailscale se puede utilizar para obtener acceso root a otros servidores a los que puede llegar, según un investigador de seguridad que publicó los hallazgos esta semana. El ataque requiere dos cosas: Tailscale SSH configurado para permitir el reenvío de puertos y un atacante que",
+    "source_name": "The Hacker News",
+    "source_url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "format": "Reel",
+    "date": "2026-10-26",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+    "summary": "Se han observado actores de amenazas que utilizan plataformas de inteligencia artificial (IA) ágiles para la actividad posterior a la explotación tras el abuso de las vulnerabilidades de PHP2Shell rastreadas como CVE-2026-109618 y CVE-2026-109619. \"En un caso, los atacantes atacaron a una entidad gubernamental en la UE",
+    "source_name": "The Hacker News",
+    "source_url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "format": "Carrusel",
+    "date": "2026-10-27",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Recent Tailscale Vulnerability Reports",
+    "summary": "",
+    "source_name": "Hacker News (3 puntos, 0 comentarios)",
+    "source_url": "https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/",
+    "format": "LinkedIn post",
+    "date": "2026-10-28",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "Tailworm – Tailscale Vulnerabilities",
+    "summary": "",
+    "source_name": "Hacker News (21 puntos, 16 comentarios)",
+    "source_url": "https://tailworm.com/",
+    "format": "Reel",
+    "date": "2026-10-29",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "An animated explainer of the PHP2SHell vulnerability [video]",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 0 comentarios)",
+    "source_url": "https://www.youtube.com/watch?v=6Kz4bWKoXhU",
+    "format": "Carrusel",
+    "date": "2026-10-30",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers; PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking; Recent Tailscale Vulnerability Reports; Tailworm – Tailscale Vulnerabilities; An animated explainer of the PHP2SHell vulnerability [video].",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-10-31",
+    "weekday": "Sábado"
   }
 ]
