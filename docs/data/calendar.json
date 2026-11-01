@@ -484,5 +484,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-10-31",
     "weekday": "Sábado"
+  },
+  {
+    "title": "Synology urges users to update DSM following ransomware attacks",
+    "summary": "",
+    "source_name": "Hacker News (2 puntos, 0 comentarios)",
+    "source_url": "https://www.synology.com/en-global/company/news/article/C3RB3R",
+    "format": "Reel",
+    "date": "2026-11-02",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+    "summary": "El FBI ha confirmado que los piratas informáticos patrocinados por el estado de Corea del Norte conocidos como TraderTraitor estuvieron detrás del ataque criptográfico de $ 6.3 mil millones en Binance, lo que lo convierte en el mayor robo de criptomonedas registrado. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+    "format": "Carrusel",
+    "date": "2026-11-03",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
+    "summary": "",
+    "source_name": "Hacker News (44 puntos, 46 comentarios)",
+    "source_url": "https://news.ycombinator.com/item?id=50326727",
+    "format": "LinkedIn post",
+    "date": "2026-11-04",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "Ransomware gang bypassed AI guardrails by posing as red-team testers",
+    "summary": "",
+    "source_name": "Hacker News (2 puntos, 0 comentarios)",
+    "source_url": "https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution",
+    "format": "Reel",
+    "date": "2026-11-05",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+    "summary": "Los piratas informáticos intentaron explotar una vulnerabilidad crítica de GitLab en la infraestructura de desarrollo de Alpine Linux los días 20 y 21 de octubre, lo que llevó al proyecto de código abierto a reconstruir su servidor GitLab y restablecer todas las contraseñas por temor a un posible compromiso. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "format": "Carrusel",
+    "date": "2026-11-06",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: Synology urges users to update DSM following ransomware attacks; FBI links $6.3 billion Binance crypto heist to North Korean hackers; Anthropic's Mythos-class model allegedly leaked on Hugging Face; Ransomware gang bypassed AI guardrails by posing as red-team testers; Alpine Linux rebuilds GitLab after attempted RCE attack.",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-11-07",
+    "weekday": "Sábado"
   }
 ]
