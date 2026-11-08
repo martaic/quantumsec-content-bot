@@ -538,5 +538,59 @@
     "format": "Recopilatorio semanal",
     "date": "2026-11-07",
     "weekday": "Sábado"
+  },
+  {
+    "title": "Get notified when new vulnerability appear to your website's dependencies",
+    "summary": "",
+    "source_name": "Hacker News (2 puntos, 0 comentarios)",
+    "source_url": "https://watchmycve.com",
+    "format": "Reel",
+    "date": "2026-11-09",
+    "weekday": "Lunes"
+  },
+  {
+    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+    "summary": "El fabricante japonés Iris Ohyama, operador de la plataforma de compras Iris Plaza, reveló que la información personal perteneciente a unos 7,7 millones de personas puede haber sido expuesta después de un acceso no autorizado a un servicio en la nube de terceros que la empresa utilizó. [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "format": "Carrusel",
+    "date": "2026-11-10",
+    "weekday": "Martes"
+  },
+  {
+    "title": "Analyzing Software Vulnerabilities faster and orders of magnitudes cheaper",
+    "summary": "",
+    "source_name": "Hacker News (1 puntos, 0 comentarios)",
+    "source_url": "https://thetechstack.substack.com/p/the-patch-wasnt-enough",
+    "format": "LinkedIn post",
+    "date": "2026-11-11",
+    "weekday": "Miércoles"
+  },
+  {
+    "title": "GitHub AI Vulnerability Scans for Repositories",
+    "summary": "",
+    "source_name": "Hacker News (2 puntos, 0 comentarios)",
+    "source_url": "https://docs.github.com/en/code-security/concepts/code-scanning/ai-scan-for-repositories",
+    "format": "Reel",
+    "date": "2026-11-12",
+    "weekday": "Jueves"
+  },
+  {
+    "title": "Hackers pull off $133 million French bank heist via service provider",
+    "summary": "El banco cooperativo francés Crédit Mutuel Arkéa fue objeto de un ciberataque que permitió transacciones fraudulentas de hasta 133 millones de $, lo que le obligó a responder suspendiendo ciertos sistemas.v [...]",
+    "source_name": "BleepingComputer",
+    "source_url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+    "format": "Carrusel",
+    "date": "2026-11-13",
+    "weekday": "Viernes"
+  },
+  {
+    "title": "Recopilatorio semanal de ciberseguridad",
+    "summary": "Repaso de lo publicado esta semana: Get notified when new vulnerability appear to your website's dependencies; Iris Ohyama data cloud breach exposes info of 7.7 million customers; Analyzing Software Vulnerabilities faster and orders of magnitudes cheaper; GitHub AI Vulnerability Scans for Repositories; Hackers pull off $133 million French bank heist via service provider.",
+    "source_name": "Resumen interno",
+    "source_url": "",
+    "format": "Recopilatorio semanal",
+    "date": "2026-11-14",
+    "weekday": "Sábado"
   }
 ]
